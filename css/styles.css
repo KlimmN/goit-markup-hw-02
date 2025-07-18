@@ -23,7 +23,6 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
 }
 
 .studio {
@@ -41,6 +40,28 @@ ul {
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 0.02em;
+}
+
+.menu .logo-listt {
+    color: #2E2F42;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+}
+
+.menu .logo-listt:hover {
+    color: #404bbf;
+}
+
+.menu .logo-listt:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+.menu .logo-listt:focus {
+    color: #404bbf;
 }
 
 address {
