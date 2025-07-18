@@ -2,6 +2,7 @@ h3 {
     color: #2E2F42;
     font-family: Roboto, sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 
 p {
@@ -30,6 +31,16 @@ ul {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     text-decoration: none;
+    font-weight: 500;
+}
+
+.menu .logo-list:hover {
+    color: #404BBF;
+}
+
+.menu .logo-list:active {
+    color: #404BBF;
+    text-decoration: underline;
 }
 
 .contacts .contact {
@@ -40,6 +51,20 @@ ul {
     font-style: normal;
 }
 
+.contacts .contact:hover {
+    color: #404BBF;
+}
+
+.contacts .contact:focus {
+    color: #404BBF;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+    line-height: 1.5;
+}
+    
 .business {
     background-color: #2E2F42;
 }
@@ -47,7 +72,6 @@ ul {
 .page-title {
     text-align: center;
     color: #FFFFFF;
-    font-family: Roboto, sans-serif;
     font-size: 56px;
 }
 
@@ -56,8 +80,12 @@ ul {
     background-color: #4D5AE5;
 }
 
-.features {
-    font-family: Roboto, sans-serif;
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .second-title {
@@ -70,15 +98,11 @@ ul {
 }
 
 .team-title {
-    color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 36px;
     text-align: center;
 }
 
 .port-title {
-    color: #2E2F42;
-    font-family: Roboto, sans-serif;
     font-size: 36px;
     text-align: center;
 }
