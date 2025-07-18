@@ -3,23 +3,30 @@ h3 {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 p {
     color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     text-decoration: none;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.web {
-    color: #4D5AE5;
+.studio {
+    color: #2e2f42;
 }
 
 ul {
@@ -32,18 +39,23 @@ ul {
     font-size: 16px;
     text-decoration: none;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .menu .logo-list:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .menu .logo-list:active {
-    color: #404BBF;
+    color: #404bbf;
     text-decoration: underline;
 }
 
-.contacts .contact {
+.menu .logo-list:focus {
+    color: #404bbf;
+}
+
+.info .cont {
     color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -51,11 +63,11 @@ ul {
     font-style: normal;
 }
 
-.contacts .contact:hover {
+.info .cont:hover {
     color: #404BBF;
 }
 
-.contacts .contact:focus {
+.info .cont:focus {
     color: #404BBF;
 }
 
@@ -74,11 +86,19 @@ body {
     text-align: center;
     color: #FFFFFF;
     font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .button {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -101,11 +121,22 @@ body {
 .team-title {
     font-size: 36px;
     text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.te-list .list {
+    background-color: #FFFFFF;
 }
 
 .port-title {
     font-size: 36px;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .end-page {
@@ -113,13 +144,22 @@ body {
 }
 
 .logo-foot {
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     text-decoration: none;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studioo {
+    color: #F4F4FD;
 }
 
 .end-text {
     color: #F4F4FD;
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
